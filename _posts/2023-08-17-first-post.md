@@ -1,4 +1,4 @@
- ---
+---
 layout: post
 title: My First Post
 tags: first  example
