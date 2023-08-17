@@ -1,0 +1,8 @@
+# Site settings
+title: Bryans New Blog Title
+author:
+  name: Bryan
+description: "Great site !"
+
+# Build settings
+remote_theme: jekyll/minima
