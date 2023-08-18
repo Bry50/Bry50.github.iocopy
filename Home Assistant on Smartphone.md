@@ -3,7 +3,9 @@ layout: page
 title: Hass on Smartphone
 ---
 
-[[_TOC_]]
+
+* toc
+{:toc}
 
 ## Introduction
 
