@@ -3,6 +3,8 @@ layout: page
 title: Hass on Smartphone
 ---
 
+[[_TOC_]]
+
 ## Introduction
 
 Home assistant (and other docker containers) can be installed onto an old smartphone.
