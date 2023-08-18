@@ -25,15 +25,13 @@ The setup is surprisingly simple (once you know how...). There is only one insta
 
 Tweaking the power supply is more intricate. PostmarkerOS usually doesn't have power management properly implemented. Make sure you start with a charged battery. Once implemented, in Home assistant, we can fully control the battery. I found after about 9 months my battery was degrading, even when I limited the charge to about 10%.  So I tweaked the system to totally  disconnect it!
 
-For a simple server, we don't need display, audio, nor the phone functions. The essentials are a power supply and wifi; Bluetooth is a nice to have.
-
 The full documentation for PostmarketOS can be found [here](https://wiki.postmarketos.org/wiki/Main_Page)
 
 Disclaimer: I presume you have an old phone that you can afford to bin if things go totally wrong. 
 
 But so far, during my inept amateurish fumbling down false paths, I have got into some situations where I thought the phone was bricked. But, so far, I have always been able to recover.
 
-If you want a supported system, or need lots of features, then don't go this route. I use mine in a secondary home and it seems reliable enough for my small (experimental ) use. I found unexpected firewall problems (explained later) and there maybe other problems lying in wait....But if you like geeky projects, want to try Home Assistant, or want a secondary system to read hard too reach BLE devices, read on.
+If you want a supported home assistant system, or need lots of features, then don't go this route. I use mine in a secondary home and it seems reliable enough for my small (experimental ) use. I found unexpected firewall problems (explained later) and there maybe other problems lying in wait....But if you like geeky projects, want to try Home Assistant, or want a secondary system to read hard too reach BLE devices, read on.
 
 I'm  pretty certain this guide works (today) for a Nexus 5 if followed step by step; but I can't provide further help.
  
