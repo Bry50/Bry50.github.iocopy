@@ -23,7 +23,7 @@ If you don't have a Nexus5, I hope this guide can provide an overview of the ste
 
 The setup is surprisingly simple (once you know how...). There is only one installation program, no rooting required. Installing everything is quite straight forward; about 1 hour if nothing goes wrong (but then I have been through it many many times). 
 
-Tweaking the power supply is more intricate. PostmarkerOS usually doesn't have power management properly implemented. Make sure you start with a charged battery. Once implemented, in Home assistant, we can fully control the battery. I found after about 9 months my battery was degrading, even when I limited the charge to about 10%.   disconnect it!
+Tweaking the power supply is more intricate. PostmarkerOS usually doesn't have power management properly implemented. Make sure you start with a charged battery. Once implemented, in Home assistant, we can fully control the battery. I found after about 9 months my battery was degrading, even when I limited the charge to about 10%.  So I tweaked the system to totally  disconnect it!
 
 For a simple server, we don't need display, audio, nor the phone functions. The essentials are a power supply and wifi; Bluetooth is a nice to have.
 
