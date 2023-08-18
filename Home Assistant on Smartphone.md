@@ -3,11 +3,14 @@ layout: page
 title: Hass on Smartphone
 ---
 
-## Introduction
+### 1) Introduction
 
 Home assistant (and other docker containers) can be installed onto an old smartphone.
 
 Here is step by step guide to install PostmarketOS, then  Docker, then Home Assistant onto an old Nexus5 phone and then control the battery charging.
+
+* toc
+{:toc}
 
 When I started with Home Assistant, the first question that arises is what hardware to use. I started with an underpowered old PI and then moved to an old server.
 For a long time, I was frustrated that I couldn't use old telephones lying in a drawer.
@@ -16,11 +19,11 @@ After many false starts, I read about PostmarketOS which totally replaces the An
 
 In this guide, I document the steps I used and provide links to  (often overwhelming) documentation.
 
-If you don't have a Nexus5, I hope this guide can provide an overview of the steps involved. PostmarketOS may have have a version for your device. But, beware, the large majority of devices are only partly converted by hobbyists. You might be lucky, but here only Nexus5 is addressed.....
+If you don't have a Nexus5, I hope this guide can provide an overview of the steps involved. PostmarketOS may have have a version for your device (see [here]( https://wiki.postmarketos.org/wiki/All_devices )) But, beware, the large majority of devices, the Nexus5 included, are only in the testing category; make sure the wifi works, bluetooth is useful, don't worry about audio and display.   You might be lucky, but here only Nexus5 is addressed.....
 
-The setup is surprisingly simple (once you know how...). There is only one installation program. Installing the postmarket operating system, docker and home assistant is simple; about 1 hour if nothing goes wrong (but I have been through it several times). 
+The setup is surprisingly simple (once you know how...). There is only one installation program, no rooting required. Installing everything is quite straight forward; about 1 hour if nothing goes wrong (but then I have been through it many many times). 
 
-Tweaking the power supply is more intricate. PostmarkerOS usually doesn't have power management properly implemented. Make sure you start with a charged battery. Once implemented, in Home assistant, we can fully control the battery,  even disconnect it!
+Tweaking the power supply is more intricate. PostmarkerOS usually doesn't have power management properly implemented. Make sure you start with a charged battery. Once implemented, in Home assistant, we can fully control the battery. I found after about 9 months my battery was degrading, even when I limited the charge to about 10%.   disconnect it!
 
 For a simple server, we don't need display, audio, nor the phone functions. The essentials are a power supply and wifi; Bluetooth is a nice to have.
 
