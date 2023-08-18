@@ -1,5 +1,6 @@
 ---
-title: 2023-08-17 Hass on Smartphone
+layout: page
+title: Hass on Smartphone
 ---
 
 ## Introduction
