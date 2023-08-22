@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hass on Smartphone
+tags: Hass pmos smartphone
 ---
 
 ### 1) Introduction
